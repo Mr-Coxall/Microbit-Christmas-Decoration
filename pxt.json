@@ -13,7 +13,8 @@
         "lesson-01.md",
         "lesson-02.md",
         "lesson-03.md",
-        "lesson-04.md"
+        "lesson-04.md",
+        "tutorial-info-cache.json"
     ],
     "testFiles": [
         "test.ts"
