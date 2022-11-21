@@ -21,9 +21,10 @@ Let's get the micro:bit attached to the computer:
 ![micro:bit getting started image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
 Let's get the micro:bit connected to the computer:
-- click the "..." at the bottom of the screen
+- click the "..." at the bottom of the screen, next to the Download button
 - select "Connect device"
-- select your micro:bit (BBC micro:bit CMSIS-DAP)
+- select your micro:bit ("BBC micro:bit CMSIS-DAP")
+- then select "Connect"
 
 ## Now let's write your first program!
 
