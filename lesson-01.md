@@ -1,11 +1,13 @@
-# Micro:Bit Intro
+# Micro:bit Intro
 
 ## Introduction @unplugged
 
-Learn how to use the LEDs and make a flashing heart! 
-(Want to learn how lights work? [Watch this video](https://youtu.be/u2u7UJSRuko)).
+![micro:bit getting started image](./images/micro-bit-getting-started.png)
 
-## Step 2
+Learn how to get the micro:bit working, program its features and create your first projects.
+[Watch intro video](https://youtu.be/u2u7UJSRuko)).
 
-Congratulations, you did it!
+## Lets Get Connected
+
+Lets get the icro:bit connected to the computer
     
