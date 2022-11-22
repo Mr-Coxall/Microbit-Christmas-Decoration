@@ -21,7 +21,7 @@ Let's get the micro:bit attached to the computer:
 ![micro:bit getting started image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
 Let's get the micro:bit connected to the computer:
-- click the "..." at the bottom of the screen, next to the Download button
+- click the "..." at the bottom left of the screen, next to the "Download" button
 - select "Connect device"
 - select your micro:bit ("BBC micro:bit CMSIS-DAP")
 - then select "Connect"
@@ -34,6 +34,11 @@ Let's program the micro:bit:
 - place it inside the ``||basic.onStart()||`` block
 - now add you name after "Hello":
     - Example: ``||basic.showString("Hello, Mr Coxall!")||``
+
+```blocks
+// @highlight
+basic.showString("Hello!")
+```
 
 ## Now let's check our first program!
 
