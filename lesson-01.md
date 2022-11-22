@@ -32,14 +32,14 @@ Let's get the micro:bit connected to the computer:
 
 Let's program the micro:bit:
 - from the code blocks, select "Basic"
-- then click and drag out the ``||basic.showString("Hello!")||`` block.
-- place it inside the ``||basic.onStart()||`` block
+- then click and drag out the ``||basic:show string("Hello!")||`` block.
+- place it inside the ``||basic:on start||`` block
 - now add you name after "Hello":
-    - Example: ``||basic.showString("Hello, Mr Coxall!")||``
+    - Example: ``||basic:show string("Hello, Jane!")||``
 
 ```blocks
 // @highlight
-basic.showString("Hello, Mr Coxall!")
+basic.showString("Hello, Jane!")
 ```
 
 ## Now let's check our first program!
