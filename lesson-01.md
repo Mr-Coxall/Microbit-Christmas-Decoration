@@ -18,7 +18,7 @@ Let's get the micro:bit attached to the computer:
 
 ## Now let's connect the micro:bit
 
-![micro:bit getting started image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
+![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
 Let's get the micro:bit connected to the computer:
 - click the "..." at the bottom left of the screen, next to the "Download" button
@@ -49,7 +49,7 @@ Let's check our program:
 
 ## Finally! let's flash our first program!
 
-![micro:bit getting started image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
+![micro:bit flashing program image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
 Let's flash our program over to the micro:bit:
 - hit the "Download" button at the bottom of the screen
