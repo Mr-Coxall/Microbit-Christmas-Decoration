@@ -37,7 +37,7 @@ Let's program the micro:bit:
 
 ```blocks
 // @highlight
-basic.showString("Hello!")
+basic.showString("Hello, Mr Coxall!")
 ```
 
 ## Now let's check our first program!
@@ -49,7 +49,7 @@ Let's check our program:
 
 ## Finally! let's flash our first program!
 
-![micro:bit flashing program image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
+![micro:bit flashing program image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/transfer.png)
 
 Let's flash our program over to the micro:bit:
 - hit the "Download" button at the bottom of the screen
