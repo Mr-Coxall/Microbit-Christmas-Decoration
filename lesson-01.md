@@ -63,4 +63,8 @@ Let's flash our program over to the micro:bit:
 
 Let's run your program again:
 - hit the "reset" button on the back of the micro:bit
-- your program should start over aain
+- your program should start over again
+
+## All done
+
+**All Done.**
