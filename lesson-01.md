@@ -8,7 +8,7 @@ Learn how to get the micro:bit working, program its features and create your fir
 
 [Watch introduction video](https://youtu.be/u2u7UJSRuko).
 
-## Let's Attach the micro:bit
+## Let's Attach the micro:bit @fullscreen
 
 ![micro:bit attached to micro USB cable image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/connect-micro-bit.png)
 
@@ -16,7 +16,7 @@ Let's get the micro:bit attached to the computer:
 - plug the micro:bit into the micro USB cable
 - plug the other end into the computer
 
-## Now let's connect the micro:bit
+## Now let's connect the micro:bit @fullscreen
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
