@@ -1,5 +1,10 @@
+# micro:bit Christmas decoration
 
-> Open this page at [https://mr-coxall.github.io/microbit-christmas-decoration/](https://mr-coxall.github.io/microbit-christmas-decoration/)
+## Lessons
+![Lesson #1](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-01)
+![Lesson #2](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-02)
+![Lesson #3](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-03)
+![Lesson #4](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-04)
 
 ## Use as Extension
 
