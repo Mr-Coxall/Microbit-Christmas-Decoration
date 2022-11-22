@@ -28,6 +28,8 @@ Let's get the micro:bit connected to the computer:
 
 ## Now let's write your first program!
 
+![micro:bit programming image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
+
 Let's program the micro:bit:
 - from the code blocks, select "Basic"
 - then click and drag out the ``||basic.showString("Hello!")||`` block.
