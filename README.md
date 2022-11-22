@@ -1,19 +1,11 @@
 # micro:bit Christmas decoration
 
 ## Lessons
-![Lesson #1](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-01)
-![Lesson #2](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-02)
-![Lesson #3](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-03)
-![Lesson #4](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-04)
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/mr-coxall/microbit-christmas-decoration** and import
+- [Lesson #1](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-01)
+- [Lesson #2](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-02)
+- [Lesson #3](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-03)
+- [Lesson #4](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-04)
 
 ## Edit this project 
 
