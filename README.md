@@ -3,8 +3,8 @@
 ## Lessons
 
 - [Lesson #1](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-01&lockedEditor=1)
-- [Lesson #2](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-02)
-- [Lesson #3](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-03)
+- [Lesson #2](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-02&lockedEditor=1)
+- [Lesson #3](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-03&lockedEditor=1)
 - [Lesson #4](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-04)
 
 ## Edit this project 
