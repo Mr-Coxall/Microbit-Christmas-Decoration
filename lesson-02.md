@@ -27,12 +27,11 @@ Let's get the micro:bit connected to the computer again:
 ## Now let's write another program
 
 Let's program the micro:bit again:
-- remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to tool bar
+- remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to tool bar (to the left where the blocks are)
 - now select "Input" and drag out a ``||input.on button A ▼ pressed||`` block
 - then click and drag out the ``||basic:show icon ♥ ▼||`` block
 - place it inside the ``||input.on button A ▼ pressed||`` block
-- hit the "Download" button at the bottom of the screen
-- watch the lights flash on the back of the micro:bit
+- hit the "Download" button at the bottom of the screen to flash your program to the micro:bit
 - now your program will not run until you hit the "A" button!
 
 ```blocks
@@ -44,9 +43,10 @@ input.onButtonPressed(Button.A, function () {
 
 ## Let's make a pattern, just like in math class!
 
-You can use the ``||basic:showIcon()||`` block to show different pictures. Lets place 3 different icons into the ``||input.on button A▼ pressed||`` block.
+You can use the ``||basic:showIcon()||`` block to show different pictures. Lets place 3 different icons into the ``||input.on button A ▼ pressed||`` block.
 - you already have a ``||basic:show icon ♥ ▼||`` block
-- now add an 2nd ``||basic:show icon ♥ ▼||`` block and change the icon to a ``||basic:show icon ☺ ▼||``
+- now add an 2nd ``||basic:show icon ♥ ▼||`` block and place it after your first one
+- change the icon to a ``||basic:show icon ☺ ▼||``
 - now add an 3rd ``||basic:showIcon()||`` block and change the icon to a ``||basic:show icon ✓ ▼||``
 - then flash your new program and hit the "A" button again
 
