@@ -22,6 +22,8 @@ Let's get the micro:bit attached to the computer:
 
 ## Now let's connect the micro:bit @unplugged
 
+** Now let's connect the micro:bit **
+
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
 ## Now let's connect the micro:bit @showhint
@@ -33,6 +35,8 @@ Let's get the micro:bit connected to the computer:
 - then select "Connect"
 
 ## Now let's write your first program! @unplugged
+
+** Now let's write your first program! **
 
 ![micro:bit programming image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/program.jpg)
 
@@ -58,6 +62,8 @@ Let's check our program:
 - if you need to fix anything, do so now
 
 ## Finally! let's flash our first program! @unplugged
+
+** Finally! let's flash our first program! **
 
 ![micro:bit flashing program image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/transfer.jpg)
 
