@@ -1,6 +1,6 @@
 # lesson-03
 
-## Last Time @showhint
+## Last Time @unplugged
 
 Last time we went over:
 - how to attach a sequence of blocks together to show a pattern
