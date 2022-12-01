@@ -10,7 +10,8 @@ Learn how to get the micro:bit working, program its features and create your fir
 
 ## Let's Attach the micro:bit @unplugged
 
-### Let's Attach the micro:bit
+** Let's Attach the micro:bit **
+
 ![micro:bit attached to micro USB cable image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/connect-micro-bit.png)
 
 ## Let's Attach the micro:bit
