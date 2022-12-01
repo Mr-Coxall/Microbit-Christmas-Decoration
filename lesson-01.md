@@ -8,7 +8,7 @@ Learn how to get the micro:bit working, program its features and create your fir
 
 [Watch introduction video](https://youtu.be/u2u7UJSRuko).
 
-## Let's Attach the micro:bit @unplugged
+## Let's Attach the micro:bit
 
 ** Let's Attach the micro:bit **
 
@@ -26,7 +26,7 @@ Let's get the micro:bit attached to the computer:
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
-## Now let's connect the micro:bit @showhint
+## Now let's connect the micro:bit
 
 Let's get the micro:bit connected to the computer:
 - click the "..." at the bottom left of the screen, next to the "Download" button
@@ -40,7 +40,7 @@ Let's get the micro:bit connected to the computer:
 
 ![micro:bit programming image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/program.jpg)
 
-## Now let's write your first program!
+## Now let's write your first program! @showhint
 
 Let's program the micro:bit:
 - from the code blocks, select "Basic"

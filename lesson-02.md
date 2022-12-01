@@ -12,7 +12,7 @@ Last time we went over:
 
 ![micro:bit attached to micro USB cable image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/connect-micro-bit.png)
 
-## Now let's connect and attach the micro:bit @showhint
+## Now let's connect and attach the micro:bit
 
 Let's get the micro:bit connected to the computer again:
 - plug the micro:bit into the micro USB cable
@@ -24,7 +24,7 @@ Let's get the micro:bit connected to the computer again:
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
-## Now let's write another program
+## Now let's write another program @showhint
 
 Let's program the micro:bit again:
 - remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to tool bar (to the left where the blocks are). When you drag them over o the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
@@ -41,7 +41,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Let's make a pattern, just like in math class!
+## Let's make a pattern, just like in math class! @showhint
 
 You can use the ``||basic:show icon ♥ ▼||`` block to show different pictures. Lets place 3 different icons into the ``||input.on button A ▼ pressed||`` block.
 - you already have a ``||basic:show icon ♥ ▼||`` block
@@ -60,7 +60,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Too fast!
+## Too fast! @showhint
 
 You will notice the images change very fast. You can slow that down by adding in a delay. 
 - select "Basic", then the ``||basic.pause ms(100)||`` block
