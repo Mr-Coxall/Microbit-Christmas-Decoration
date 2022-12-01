@@ -8,7 +8,7 @@ Learn how to get the micro:bit working, program its features and create your fir
 
 [Watch introduction video](https://youtu.be/u2u7UJSRuko).
 
-## Let's Attach the micro:bit
+## Let's Attach the micro:bit @unplugged
 
 ![micro:bit attached to micro USB cable image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/connect-micro-bit.png)
 
@@ -18,7 +18,7 @@ Let's get the micro:bit attached to the computer:
 - plug the micro:bit into the micro USB cable
 - plug the other end into the computer
 
-## Now let's connect the micro:bit @showhint
+## Now let's connect the micro:bit @unplugged
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
@@ -30,7 +30,7 @@ Let's get the micro:bit connected to the computer:
 - select your micro:bit ("BBC micro:bit CMSIS-DAP")
 - then select "Connect"
 
-## Now let's write your first program!
+## Now let's write your first program! @unplugged
 
 ![micro:bit programming image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/program.jpg)
 
@@ -55,7 +55,7 @@ Let's check our program:
 - you can test run your program, to ensure it is working correctly
 - if you need to fix anything, do so now
 
-## Finally! let's flash our first program!
+## Finally! let's flash our first program! @unplugged
 
 ![micro:bit flashing program image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/transfer.jpg)
 
