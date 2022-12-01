@@ -8,7 +8,7 @@ Learn how to get the micro:bit working, program its features and create your fir
 
 [Watch introduction video](https://youtu.be/u2u7UJSRuko).
 
-## Let's Attach the micro:bit
+## Let's Attach the micro:bit @unplugged
 
 ** Let's Attach the micro:bit **
 
