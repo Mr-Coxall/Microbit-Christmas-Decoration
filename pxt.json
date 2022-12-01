@@ -15,7 +15,8 @@
         "lesson-02.md",
         "lesson-03.md",
         "lesson-04.md",
-        "tutorial-info-cache.json"
+        "tutorial-info-cache.json",
+        "custom.ts"
     ],
     "testFiles": [
         "test.ts"
