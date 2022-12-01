@@ -1,6 +1,6 @@
 # lesson-02
 
-## Last Time
+## Last Time @showhint
 
 Last time we went over:
 - what is a micro:bit
@@ -12,7 +12,7 @@ Last time we went over:
 
 ![micro:bit attached to micro USB cable image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/connect-micro-bit.png)
 
-## Now let's connect and attach the micro:bit
+## Now let's connect and attach the micro:bit @showhint
 
 Let's get the micro:bit connected to the computer again:
 - plug the micro:bit into the micro USB cable
