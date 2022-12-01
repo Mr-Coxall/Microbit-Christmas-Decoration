@@ -10,10 +10,17 @@ Learn how to get the micro:bit working, program its features and create your fir
 
 ## Let's Attach the micro:bit
 
+![micro:bit attached to micro USB cable image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/connect-micro-bit.png)
+
+## Let's Attach the micro:bit
+
 Let's get the micro:bit attached to the computer:
 - plug the micro:bit into the micro USB cable
 - plug the other end into the computer
-![micro:bit attached to micro USB cable image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/connect-micro-bit.png)
+
+## Now let's connect the micro:bit @showhint
+
+![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
 ## Now let's connect the micro:bit @showhint
 
@@ -23,7 +30,9 @@ Let's get the micro:bit connected to the computer:
 - select your micro:bit ("BBC micro:bit CMSIS-DAP")
 - then select "Connect"
 
-![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
+## Now let's write your first program!
+
+![micro:bit programming image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/program.jpg)
 
 ## Now let's write your first program!
 
@@ -33,8 +42,6 @@ Let's program the micro:bit:
 - place it inside the ``||basic:on start||`` block
 - now add you name after "Hello":
     - Example: ``||basic:show string("Hello, Jane!")||``
-
-![micro:bit programming image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/program.jpg)
 
 ```blocks
 // @highlight
@@ -50,13 +57,15 @@ Let's check our program:
 
 ## Finally! let's flash our first program!
 
+![micro:bit flashing program image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/transfer.jpg)
+
+## Finally! let's flash our first program!
+
 Let's flash our program over to the micro:bit:
 - hit the "Download" button at the bottom of the screen
 - watch the lights flash on the back of the micro:bit
     - this is a good thing, it means the program is being flashed over to the micro:bit
 - once it is all done, you should see your program running on the micro:bit
-
-![micro:bit flashing program image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/transfer.jpg)
 
 ## Run it again!
 
