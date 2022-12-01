@@ -1,4 +1,4 @@
-# lesson-03
+# Lesson #03
 
 ## Last Time @unplugged
 
@@ -33,7 +33,7 @@ Let's get the micro:bit connected to the computer again:
 
 Let's try some new blocks:
 - remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to tool bar (to the left where the blocks are). When you drag them over o the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
-- select ``||input.on Input||`` and drag out a ``||input.on shake ▼||`` block
+- select ``||input. Input||`` and drag out a ``||input.on shake ▼||`` block
 - click the "▼" and select "tilt left"
   - it should look like: ``||input.on tile left ▼||``
 - select "Basic" and drag out the ``||basic:show arrow (North) ▼||`` block
