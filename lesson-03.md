@@ -40,10 +40,10 @@ Let's try some new blocks:
 - place it inside the ``||input.on tile left ▼||`` block
 - select the "▼" on the ``||basic:show arrow (North) ▼||`` block and choose "West"
   - it should look like: ``||basic:show arrow (West) ▼||``
-- select "Input" and drag out another ``||input.on shake ▼||`` block
+- select ``||input. Input`` and drag out another ``||input.on shake ▼||`` block
 - click the "▼" and select "tilt right"
   - it should look like: ``||input.on tilt right ▼||``
-- select "Basic" and drag out the ``||basic:show arrow (North) ▼||`` block
+- select ``||basic: Basic`` and drag out the ``||basic:show arrow (North) ▼||`` block
 - place it inside the ``||input.on tilt right ▼||`` block
 - select the "▼" on the ``||basic:show arrow (North) ▼||`` block and choose "East"
   - it should look like: ``||basic:show arrow (East) ▼||``
@@ -68,8 +68,8 @@ The goal is to make a pattern on the micro:bit and then show the pattern to your
 
 ## Let's make another pattern, just like in math class! @showhint
 
-- select "Input" and drag out a ``||input.on button A ▼ pressed||`` block
-- select "Loops" and drag out a ``|| loops.repeat (4)times ||`` block and place it inside the ``||input.on button A ▼ pressed||`` block 
+- select ``||input. Input`` and drag out a ``||input.on button A ▼ pressed||`` block
+- select ``|| loops. Loops`` and drag out a ``|| loops.repeat (4)times ||`` block and place it inside the ``||input.on button A ▼ pressed||`` block 
 
 ```blocks
 // @highlight
@@ -81,7 +81,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 ## Let's make another pattern, just like in math class!
 
-- select "Basic" add in a ``||basic:show icon ♥ ▼||`` block and place it inside the ``||loops.repeat||`` block
+- select ``||basic: Basic`` add in a ``||basic:show icon ♥ ▼||`` block and place it inside the ``||loops.repeat||`` block
 - now change the icon to something you would like!
 - add in a ``||basic.pause ms(100)||`` block and change the "100" to "1000", meaning 1 second
 - now repeat this 2 more times, creating a pattern you would like

@@ -43,7 +43,7 @@ Let's get the micro:bit connected to the computer:
 ## Now let's write your first program! @showhint
 
 Let's program the micro:bit:
-- from the code blocks, select "Basic"
+- from the code blocks, select ``||basic: Basic||``
 - then click and drag out the ``||basic:show string("Hello!")||`` block.
 - place it inside the ``||basic:on start||`` block
 - now add you name after "Hello":
