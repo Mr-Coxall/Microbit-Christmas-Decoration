@@ -7,6 +7,10 @@
 - [Lesson #3](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-03&lockedEditor=1)
 - [Lesson #4](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-04&lockedEditor=1)
 
+## Extras
+
+- [Lesson #1 - Extra](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-01-extra&lockedEditor=1)
+
 ## Edit this project 
 
 ![Build status badge](https://github.com/mr-coxall/microbit-christmas-decoration/workflows/MakeCode/badge.svg)
