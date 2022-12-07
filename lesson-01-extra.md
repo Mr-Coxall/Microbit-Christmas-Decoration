@@ -2,11 +2,11 @@
 
 ## Introduction @unplugged
 
-![micro:bit getting started image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/dice.png)
-
 Learn how to get the micro:bit to be a virtual dice.
 
-[Watch dice video](https://youtu.be/FzfHJH903nU).
+[Watch dice video](https://youtu.be/FzfHJH903nU)
+
+![micro:bit getting started image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/dice.png)
 
 ## Now let's connect and attach the micro:bit, ONLY if we need to! @showhint
 
