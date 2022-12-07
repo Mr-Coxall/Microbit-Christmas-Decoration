@@ -32,7 +32,7 @@ Let's get the micro:bit connected to the computer again:
 ## Now let's write another program
 
 Let's try some new blocks:
-- remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to tool bar (to the left where the blocks are). When you drag them over o the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
+- remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
 - select ``||input. Input||`` and drag out a ``||input.on shake ▼||`` block
 - click the "▼" and select "tilt left"
   - it should look like: ``||input.on tile left ▼||``
@@ -48,7 +48,7 @@ Let's try some new blocks:
 - select the "▼" on the ``||basic:show arrow (North) ▼||`` block and choose "East"
   - it should look like: ``||basic:show arrow (East) ▼||``
 - hit the "Download" button at the bottom of the screen to flash your program to the micro:bit
-- run your progrm by pressing the "A" button on your micro:bit and watch the arrow move back and forth!
+- run your progrm by pressing the "A" button on your micro:bit and watch the arrow move back and forth when you tilt the micro:bit!
 
 ```blocks
 // @highlight
@@ -62,9 +62,9 @@ input.onGesture(Gesture.TiltRight, function () {
 
 ## Let's make another pattern, just like in math class!
 
-The goal is to make a pattern on the micro:bit and then show the pattern to your partner. Thier job is to tell you the pattern. To help them learn the pattern you will show it 4 times!
+The goal is to make a pattern on the micro:bit and then show the pattern to your partner. Their job is to tell you the pattern. To help them learn the pattern you will show it 4 times!
 
-- to begin with remove all the block by dragging them over to tool bar (to the left where the blocks are). When you drag them over o the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
+- to begin with remove all the blocks by dragging them over to tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
 
 ## Let's make another pattern, just like in math class! @showhint
 
@@ -75,7 +75,7 @@ The goal is to make a pattern on the micro:bit and then show the pattern to your
 // @highlight
 input.onButtonPressed(Button.A, function () {
     for (let index = 0; index < 4; index++) {
-    	
+    
     }
 })
 ```
@@ -83,7 +83,7 @@ input.onButtonPressed(Button.A, function () {
 
 - select ``||basic: Basic`` add in a ``||basic:show icon ♥ ▼||`` block and place it inside the ``||loops.repeat||`` block
 - now change the icon to something you would like!
-- add in a ``||basic.pause ms(100)||`` block and change the "100" to "1000", meaning 1 second
+- select ``||basic: Basic`` add in a ``||basic.pause ms(100)||`` block and change the "100" to "1000", meaning 1 second
 - now repeat this 2 more times, creating a pattern you would like
 - at the bottom of your loop add in a ``||basic:show leds||`` block to clear the screen at the end
 
