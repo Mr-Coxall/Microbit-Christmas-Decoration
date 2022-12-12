@@ -77,6 +77,22 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
+## Now let's make the numbers show up @showhint
+
+In this program you will first shake the micro:bit to set the question. Then you will press "A: and "B" to see what numbers you will add together. Finally you can see the answer by touching the micro:bit touch logo on the front of the micro:bit.:
+- select ``||input. Input`` and drag out a ``||input.on button A ▼ pressed||`` block
+- select ``||basic. Basic||`` and drag out a ``||basic.show number(0)||`` block
+- select ``||variable. Variable||`` and drag out the ``||variable. first_number||`` block
+- place it inside the ``||basic.show number(0)||`` block where the "0" is
+- this will show whatever random number was placed inside the ``||variable. first_number||`` vairiable
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    // @highlight
+    basic.showNumber(first_number)
+})
+```
+
 ## Finally! let's flash our first program!
 
 Let's flash your dice program over to the micro:bit:
