@@ -1,12 +1,12 @@
-# micro:bit - Make a Dice!
+# micro:bit - Make an addition game!
 
 ## Introduction @unplugged
 
-Learn how to get the micro:bit to be a virtual dice.
+Learn how to get the micro:bit to be a virtual math helper.
 
 [Watch dice video](https://youtu.be/FzfHJH903nU)
 
-![micro:bit getting started image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/dice.png)
+![micro:bit getting started image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/add.png)
 
 ## Now let's connect and attach the micro:bit, ONLY if we need to! @showhint
 
