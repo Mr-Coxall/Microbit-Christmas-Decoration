@@ -27,7 +27,7 @@ Let's get the micro:bit connected to the computer again:
 A variable is just a place holder that can hold some information. In our case we will create 2 variables, each one holding a number that we will add together:
 - remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
 - select ``||input. Input||`` and drag out a ``||input.on shake ▼ ||`` block
-- select ``||variable. Variables||`` and then click "Make a Variable..."
+- select ``||variables. Variables||`` and then click "Make a Variable..."
 - we will call our 1st variable, ``||variable. first_number||``, since it will hold the 1st number we are adding
 - type in "first_number" and then press "Enter"
 - you will notice a new block has been created, drag out the ``||variable. set [first_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block
@@ -81,7 +81,7 @@ input.onGesture(Gesture.Shake, function () {
 ## Now let's tell the user everything is ready @showhint
 
 Now that we have both variables, let's show a "✓" on the screen, so the user knows they can start:
-- select ``||basic: Basic||`` and drag out the ``||basic:show icon ♥ ▼||`` block and place it after the ``||variable. set [second_number ▼] to (0)||`` block
+- select ``||basic: Basic||`` and drag out the ``||basic:show icon ♥ ▼||`` block and place it at the end
 - change the icon to a ``||basic:show icon ✓ ▼||``
 
 ```blocks
@@ -113,7 +113,7 @@ input.onButtonPressed(Button.A, function () {
 
 Now we will leave that section of code and add another section. Now let's make the 2nd number show up:
 - select ``||input. Input||`` and drag out a ``||input.on button A ▼ pressed||`` block
-- you will notice that our previous code just turned grey; that is because we can ot have 2 sections of code with the same start block
+- you will notice that our previous code just turned grey; that is because we can not have 2 sections of code with the same start block
 - select the ▼ on the new ``||input.on button A ▼ pressed||`` block and change the "A" to "B", the old code will turn from grey to pink
 - select ``||basic. Basic||`` and drag out a ``||basic.show number(0)||`` block
 - select ``||variable. Variables||`` and drag out the ``||variable. second_number ▼||`` block
@@ -129,14 +129,14 @@ input.onButtonPressed(Button.B, function () {
 
 ## Now let's show the answer @showhint
 
-This will only work on the new ver: 2 micro:bit (the one we have!):
+Now let's show the answer:
 - select ``||input. Input||`` and drag out a ``||input.on logo pressed ▼ ||`` block
 - select ``||basic. Basic||`` and drag out a ``||basic. clear screen||`` block
 - select ``||basic. Basic||`` and drag out a ``||basic. show string ("Hello!")||`` block
-- goto the bottom and select "Advanced" and then select ``||text. Text||``
+- in the tool bar go to the bottom and select "⌄ Advanced" ``||advanced. Advanced||`` and then select ``||text. Text||``
 - drag out the ``||text. join ("Hello") ("World") ⊖ ⨁||`` block
 - place it inside the ``||basic. show string ("Hello!")||`` block where the "Hello!" is
-- this blockis used to join several words together
+- this block is used to join several words together
 - hit the "⨁" 3 times, so you have 5 sections in total
 
 ```blocks
