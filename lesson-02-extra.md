@@ -26,14 +26,14 @@ A variable is just a place holder that can hold some information. In our case we
 - remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to tool bar (to the left where the blocks are). When you drag them over o the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
 - select ``||input. Input||`` and drag out a ``||input.on shake ▼ ||`` block
 - select ``||variable. Variable||`` and then click "Make a Variable ..."
-- we will call our 1st variable, "first_number", since it will hold the 1st number
+- we will call our 1st variable, ``||variable. first_number||``, since it will hold the 1st number
 - type in "first_number" and then press "Enter"
 - you will notice a new block has been created, drag out the ``||variable. set [first_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block
 
 ```blocks
-// @highlight
 let first_number = 0
 input.onGesture(Gesture.Shake, function () {
+    // @highlight
     first_number = 0
 })
 ```
@@ -42,7 +42,7 @@ input.onGesture(Gesture.Shake, function () {
 
 Now that we have our first variable, let's create a 2nd one:
 - select ``||variable. Variable||`` and then click "Make a Variable ..."
-- we will call our 2nd variable, "second_number", since it will hold the 2nd number
+- we will call our 2nd variable, ``||variable. second_number||``, since it will hold the 2nd number
 - type in "second_number" and then press "Enter"
 - you will notice the new block has been changed. The little ▼ will let you select any variable you create. Drag out the ``||variable. set [second_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block under the ``||variable. set [first_number ▼] to (0)||`` block 
 
@@ -79,7 +79,7 @@ input.onGesture(Gesture.Shake, function () {
 
 ## Now let's let the user know everything is ready @showhint
 
-Now that we have both variables, let's show a "✓", so the user knows they can start:
+Now that we have both variables, let's show a "✓" on the screen, so the user knows they can start:
 - select ``||basic: Basic||`` and drag out the ``||basic:show icon ♥ ▼||`` block and change the icon to a ``||basic:show icon ✓ ▼||``
 - place it after the ``||variable. set [second_number ▼] to (0)||`` block
 
