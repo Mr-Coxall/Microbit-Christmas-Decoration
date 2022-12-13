@@ -80,7 +80,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Clear the screen
 
-You can add a ``||basic.basic.clearScreen()||`` block to clear he screen
+You might want to clear the screen at the end of your sequence
 - select ``||basic: Basic||`` and drag out the ``||basic.basic.clearScreen()||`` block and place it at the end
 
 ```blocks
