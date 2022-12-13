@@ -1,6 +1,6 @@
 {
     "name": "Micro:Bit Christmas Decoration",
-    "version": "0.0.38",
+    "version": "0.1.0",
     "description": "",
     "dependencies": {
         "core": "*",
