@@ -6,7 +6,7 @@
 
 In this program you will first shake the micro:bit to set the question. Then you will press "A" and "B" to see what numbers you will add together. Finally you can see the answer by touching the micro:bit touch logo on the front of the micro:bit.
 
-![micro:bit getting started image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/add.png)
+![micro:bit adding game](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/addition.png)
 
 ## Now let's connect and attach the micro:bit, ONLY if we need to! @showhint
 
@@ -27,7 +27,7 @@ Let's get the micro:bit connected to the computer again:
 A variable is just a place holder that can hold some information. In our case we will create 2 variables, each one holding a number that we will add together:
 - remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
 - select ``||input. Input||`` and drag out a ``||input.on shake ▼ ||`` block
-- select ``||variable. Variable||`` and then click "Make a Variable ..."
+- select ``||variable. Variables||`` and then click "Make a Variable..."
 - we will call our 1st variable, ``||variable. first_number||``, since it will hold the 1st number we are adding
 - type in "first_number" and then press "Enter"
 - you will notice a new block has been created, drag out the ``||variable. set [first_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block
@@ -43,7 +43,7 @@ input.onGesture(Gesture.Shake, function () {
 ## Now let's create a 2nd variable @showhint
 
 Now that we have our first variable, let's create a 2nd one:
-- select ``||variable. Variable||`` and then click "Make a Variable ..."
+- select ``||variable. Variables||`` and then click "Make a Variable..." again
 - we will call our 2nd variable, ``||variable. second_number||``, since it will hold the 2nd number we are adding
 - type in "second_number" and then press "Enter"
 - you will notice the new block has been changed. The little ▼ will let you select any variable you create. Drag out the ``||variable. set [second_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block under the ``||variable. set [first_number ▼] to (0)||`` block 
@@ -71,10 +71,9 @@ At the moment our 2 variables are just holding the number 0. We need to get the 
 ```blocks
 let first_number = 0
 let second_number = 0
+// @highlight
 input.onGesture(Gesture.Shake, function () {
-    // @highlight
     first_number = randint(0, 9)
-    // @highlight
     second_number = randint(0, 9)
 })
 ```
@@ -96,12 +95,12 @@ input.onGesture(Gesture.Shake, function () {
 
 ## Now let's make the numbers show up @showhint
 
-Now let's make the first number show up when you press the "A" button:
+Leave the ``||input.on shake ▼ ||`` block with all it's code alone. We will be adding a new set of blocks. Now let's make the first number show up when you press the "A" button:
 - select ``||input. Input||`` and drag out a ``||input.on button A ▼ pressed||`` block
 - select ``||basic. Basic||`` and drag out a ``||basic.show number(0)||`` block
-- select ``||variable. Variable||`` and drag out the ``||variable. first_number||`` block
+- select ``||variable. Variables||`` and drag out the ``||variable. first_number ▼||`` block, under "Your Variables"
 - place it inside the ``||basic.show number(0)||`` block where the "0" is
-- this will show whatever random number was placed inside the ``||variable. first_number||`` vairiable
+- this will show whatever random number was placed inside the first_number variable
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -112,13 +111,14 @@ input.onButtonPressed(Button.A, function () {
 
 ## Now let's make the 2nd number show up @showhint
 
-Now let's make the 2nd number show up:
+Now we will leave that section of code and add another section. Now let's make the 2nd number show up:
 - select ``||input. Input||`` and drag out a ``||input.on button A ▼ pressed||`` block
-- select the ▼ and change the "A" to "B", it hould turn from gey to pink
+- you will notice that our previous code just turned grey; that is because we can ot have 2 sections of code with the same start block
+- select the ▼ on the new ``||input.on button A ▼ pressed||`` block and change the "A" to "B", the old code will turn from grey to pink
 - select ``||basic. Basic||`` and drag out a ``||basic.show number(0)||`` block
-- select ``||variable. Variable||`` and drag out the ``||variable. second_number||`` block
+- select ``||variable. Variables||`` and drag out the ``||variable. second_number ▼||`` block
 - place it inside the ``||basic.show number(0)||`` block where the "0" is
-- this will show whatever random number was placed inside the ``||variable. second_number||`` vairiable
+- this will show whatever random number was placed inside the second_number variable
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
@@ -152,10 +152,10 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 Let's print out the answer:
 - in the 1st section that currently has "Hello" replace it with
-  - select ``||variable. Variable||`` and drag out the ``||variable. first_number||`` block
+  - select ``||variable. Variables||`` and drag out the ``||variable. first_number||`` block
 - in the 2nd section that currently has "World" replace it with a "+" symbol
 - in the 3rd section that currently is empty replace it with
-  - select ``||variable. Variable||`` and drag out the ``||variable. second_number||`` block
+  - select ``||variable. Variables||`` and drag out the ``||variable. second_number||`` block
 - in the 4th section that currently is empty replace it with a "=" symbol
 - in the last section that currently is empty replace it with
   - select ``||math. Math||`` and drag out the ``||math. (0) +▼ (0)||`` block
