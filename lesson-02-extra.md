@@ -77,6 +77,21 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
+## Now let's let the user know everything is ready @showhint
+
+Now that we have both variables, let's show a "✓", so the user knows they can start:
+- select ``||basic: Basic||`` and drag out the ``||basic:show icon ♥ ▼||`` block and change the icon to a ``||basic:show icon ✓ ▼||``
+- place it after the ``||variable. set [second_number ▼] to (0)||`` block
+
+```blocks
+input.onGesture(Gesture.Shake, function () {
+    first_number = randint(0, 9)
+    second_number = randint(0, 9)
+    // @highlight
+    basic.showIcon(IconNames.Yes)
+})
+```
+
 ## Now let's make the numbers show up @showhint
 
 In this program you will first shake the micro:bit to set the question. Then you will press "A: and "B" to see what numbers you will add together. Finally you can see the answer by touching the micro:bit touch logo on the front of the micro:bit.:
@@ -90,6 +105,66 @@ In this program you will first shake the micro:bit to set the question. Then you
 input.onButtonPressed(Button.A, function () {
     // @highlight
     basic.showNumber(first_number)
+})
+```
+
+## Now let's make the 2nd number show up @showhint
+
+Now let's make the 2nd number show up:
+- select ``||input. Input`` and drag out a ``||input.on button A ▼ pressed||`` block
+- select the ▼ and change the "A" to "B"
+- select ``||basic. Basic||`` and drag out a ``||basic.show number(0)||`` block
+- select ``||variable. Variable||`` and drag out the ``||variable. second_number||`` block
+- place it inside the ``||basic.show number(0)||`` block where the "0" is
+- this will show whatever random number was placed inside the ``||variable. second_number||`` vairiable
+
+```blocks
+input.onButtonPressed(Button.B, function () {
+    // @highlight
+    basic.showNumber(second_number)
+})
+```
+
+## Now let's show the answer @showhint
+
+This will only work on the new ver: 2 micro:bit (the one we have!):
+- select ``||input. Input||`` and drag out a ``||input.on logo pressed ▼ ||`` block
+- select ``||basic. Basic||`` and drag out a ``||basic. clear screen||`` block
+- select ``||basic. Basic||`` and drag out a ``||basic. show string ("Hello!")||`` block
+- goto the bottom and select "Advanced" and then select ``||text. Text||``
+- drag out the ``||text. join ("Hello") ("World") ⊖ ⨁||`` block
+- place it inside the ``||basic. show string ("Hello!")||`` block where the "Hello!" is
+- this is used to join several words together
+- hit the "⨁" 3 times, so you have 5 sections in total
+
+```blocks
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    // @highlight
+    basic.clearScreen()
+    // @highlight
+    basic.showString("Hello" + "World" + "" + "" + "")
+})
+```
+
+## Now let's show the answer @showhint
+
+Let's print out the answer:
+- in the 1st section that currently has "Hello" place
+  - select ``||variable. Variable||`` and drag out the ``||variable. first_number||`` block
+- in the 2nd section that currently has "World" replace it with a "+" symbol
+- in the 3rd section that currently is empty
+  - select ``||variable. Variable||`` and drag out the ``||variable. second_number||`` block
+- in the 4th section that currently is empty replace it with a "=" symbol
+- in the last section that currently is empty
+  - select ``||math. Math||`` and drag out the ``||math. (0) +▼ (0)||`` block
+  - inside the first "(0)", replace it with the ``||variable. first_number||`` block
+  - inside the second "(0)", replace it with the ``||variable. second_number||`` block
+
+```blocks
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.clearScreen()
+    // @highlight
+    basic.showString("" + first_number + "+" + second_number + "=" + (first_number + second_number))
 })
 ```
 
