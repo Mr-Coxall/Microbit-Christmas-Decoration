@@ -1,6 +1,6 @@
 # micro:bit - Make an addition game!
 
-## Addition Game @unplugged
+## 01 @unplugged
 
 **Learn how to get the micro:bit to be a virtual math helper.**
 
@@ -8,7 +8,7 @@ In this program you will first shake the micro:bit to set the question. Then you
 
 ![micro:bit adding game](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/addition.png)
 
-## Now let's connect and attach the micro:bit, ONLY if we need to! @showhint
+## 02 @showhint
 
 ** ONLY RE-CONNECT IF YOU ARE NOT ALREADY CONNECTED!**
 
@@ -22,15 +22,15 @@ Let's get the micro:bit connected to the computer again:
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
-## Now let's create a variable @showhint
+## 03 @showhint
 
 A variable is just a place holder that can hold some information. In our case we will create 2 variables, each one holding a number that we will add together:
 - remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
-- select ``||input. Input||`` and drag out a ``||input.on shake ▼ ||`` block
+- select ``||input. Input||`` and drag out an ``||input.on shake ▼ ||`` block
 - select ``||variables. Variables||`` and then click "Make a Variable..."
-- we will call our 1st variable, ``||variables. first_number||``, since it will hold the 1st number we are adding
+- we will call our 1st variable, ``||variables. first_number||`` since it will hold the 1st number we are adding
 - type in "first_number" and then press "Enter"
-- you will notice a new block has been created, drag out the ``||variables. set [first_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block
+- you will notice several new blocks has been created, drag out the ``||variables. set [first_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block
 
 ```blocks
 let first_number = 0
@@ -40,13 +40,13 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
-## Now let's create a 2nd variable @showhint
+## 04 @showhint
 
 Now that we have our first variable, let's create a 2nd one:
 - select ``||variables. Variables||`` and then click "Make a Variable..." again
 - we will call our 2nd variable, ``||variables. second_number||``, since it will hold the 2nd number we are adding
 - type in "second_number" and then press "Enter"
-- you will notice the new block has been changed. The little ▼ will let you select any variable you create. Drag out the ``||variables. set [second_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block under the ``||variables. set [first_number ▼] to (0)||`` block 
+- you will notice the new blocks have changed. The ▼ will let you select any variable you have create. Drag out the ``||variables. set [second_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block under the ``||variables. set [first_number ▼] to (0)||`` block 
 
 ```blocks
 let first_number = 0
@@ -58,7 +58,7 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
-## Add in randomness @showhint
+## 05 @showhint
 
 At the moment our 2 variables are just holding the number 0. We need to get the micro:bit to randomly choose numbers for us :
 - select ``||math: Math||`` and drag out the ``||math: pick random (0) to (10)||`` block
@@ -71,7 +71,6 @@ At the moment our 2 variables are just holding the number 0. We need to get the 
 ```blocks
 let first_number = 0
 let second_number = 0
-// @highlight
 input.onGesture(Gesture.Shake, function () {
     first_number = randint(0, 9)
     second_number = randint(0, 9)
