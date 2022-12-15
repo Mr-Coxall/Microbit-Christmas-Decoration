@@ -34,18 +34,17 @@ Let's get the micro:bit connected to the computer again:
 
 This code will send a message to another micro:bit:
 - remove the ``||basic.forever||`` block by dragging them over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
-- select ``||input. Input||`` drag out a ``||input.clear screen ||`` block and add it to the ``||basic:on start||`` block
-- select ``||variables. Variables||`` and then click "Make a Variable..."
-- we will call our 1st variable, ``||variables. first_number||`` since it will hold the 1st number we are adding
-- type in "first_number" and then press "Enter"
-- you will notice several new blocks has been created, drag out the ``||variables. set [first_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block
+- select ``||basic: Basic||`` drag out a ``||basic. clear screen ||`` block and add it to the ``||basic:on start||`` block
+- select ``||basic: Basic||``drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
+- change the icon to a ``||basic:show icon ☺ ▼||``
+- select ``||radio: Radio||``drag out a ``||radio: rasio set group (0) ||`` block and add it to the bottom in the ``||basic:on start||`` block
+- change the "(0)" to the number your group is using
+
 
 ```blocks
-let first_number = 0
-input.onGesture(Gesture.Shake, function () {
-    // @highlight
-    first_number = 0
-})
+basic.clearScreen()
+basic.showIcon(IconNames.Happy)
+radio.setGroup(1)
 ```
 
 ## 04 @showhint
