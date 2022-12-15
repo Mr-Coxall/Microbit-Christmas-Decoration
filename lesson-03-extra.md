@@ -24,11 +24,17 @@ Let's get the micro:bit connected to the computer again:
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
-## 03 @showhint
+## 03 @unplugged
 
-A variable is just a place holder that can hold some information. In our case we will create 2 variables, each one holding a number that we will add together:
-- remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
-- select ``||input. Input||`` and drag out an ``||input.on shake ▼ ||`` block
+**This code is for the person sending the message**
+
+**REMEMBER: you nned to have your group number**
+
+## 04 @showhint
+
+This code will send a message to another micro:bit:
+- remove the ``||basic.forever||`` block by dragging them over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
+- select ``||input. Input||`` drag out a ``||input.clear screen ||`` block and add it to the ``||basic:on start||`` block
 - select ``||variables. Variables||`` and then click "Make a Variable..."
 - we will call our 1st variable, ``||variables. first_number||`` since it will hold the 1st number we are adding
 - type in "first_number" and then press "Enter"
