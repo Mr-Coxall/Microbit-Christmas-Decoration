@@ -28,8 +28,6 @@ Let's get the micro:bit connected to the computer again:
 
 **This code is for the person sending the message**
 
-**⇱**
-
 **REMEMBER: you need to have your group number**
 
 ## 04 @showhint
@@ -37,7 +35,7 @@ Let's get the micro:bit connected to the computer again:
 This code will send a message to another micro:bit:
 - remove the ``||basic.forever||`` block by dragging it over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
 - select ``||basic: Basic||`` drag out a ``||basic. clear screen ||`` block and add it to the ``||basic:on start||`` block
-- select ``||basic: Basic||``drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
+- select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
 - change the icon to a ``||basic:show icon ✓ ▼||``
 - select ``||radio: Radio||`` drag out a ``||radio: radio set group (1) ||`` block and add it to the bottom in the ``||basic:on start||`` block
 - change the "(1)" to the number your group is using
@@ -49,11 +47,25 @@ basic.showIcon(IconNames.Happy)
 radio.setGroup(1)
 ```
 
+## 05 @showhint
+
+Now for the message:
+- select ``||input. Input||`` and drag out a ``||input.on button A ▼ pressed||`` block
+- select ``||radio: Radio||`` drag out a ``||radio: radio send string ("") ||`` block and add it to the ``||input.on button A ▼ pressed||`` block
+- place your **short** message inside the ("")
+  - for example: "Hello, World!"
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    radio.sendString("Hello, World!")
+})
+```
+
 ## 05 @unplugged
 
 **The sender code is now done.**
 
-Let's flash your add program over to the micro:bit:
+Let's flash your program over to the micro:bit:
 - again press the "Download" button at the bottom of the screen
 - watch the lights flash on the back of the micro:bit
     - this is a good thing, it means the program is being flashed over to the micro:bit
@@ -64,8 +76,6 @@ Let's flash your add program over to the micro:bit:
 ## 06 @unplugged
 
 **This code is for the person receiving the message**
-
-**⇲**
 
 **REMEMBER: you need to have your group number**
 
