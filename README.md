@@ -11,6 +11,7 @@
 
 - [Lesson #1 - Extra](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-01-extra&lockedEditor=1)
 - [Lesson #2 - Extra](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-02-extra&lockedEditor=1)
+- [Lesson #3 - Extra](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-03-extra&lockedEditor=1)
 
 ## Edit this project 
 
