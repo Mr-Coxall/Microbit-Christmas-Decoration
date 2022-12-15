@@ -1,12 +1,14 @@
-# micro:bit - Make an addition game!
+# micro:bit - Make 2 micro:bitd talk to each other!
 
 ## 01 @unplugged
 
 **Learn how to get the micro:bit to be a virtual math helper.**
 
-In this program you will first shake the micro:bit to set the question. Then you will press "A" and "B" to see what numbers you will add together. Finally you can see the answer by touching the micro:bit touch logo on the front of the micro:bit.
+In this program you will get 2 micro:bit to talk to each other.
 
-![micro:bit adding game](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/addition.png)
+**NOTE: each group must have a different number, so the micro:bit knows who they should be talking to**
+
+![micro:bit adding game](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/micro_bit_radio.png)
 
 ## 02 @showhint
 
