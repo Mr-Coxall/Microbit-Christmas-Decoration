@@ -54,10 +54,28 @@ Now for the message:
 - select ``||radio: Radio||`` drag out a ``||radio: radio send string ("") ||`` block and add it to the ``||input.on button A ▼ pressed||`` block
 - place your **short** message inside the ("")
   - for example: ``||radio: radio send string ("Hello, World!") ||``
+- select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
+  - change the icon to a large box ``||basic.showIcon(IconNames.Square)||``
+- select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
+  - change the icon to a small box ``||basic.showIcon(IconNames.SmallSquare)||``
+- select ``||basic: Basic||`` drag out a ``||basic:show leds||`` block and add it to the bottom in the ``||basic:on start||`` block
+  - select just the middle led
+- select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
+  - change the icon to a ``||basic:show icon ✓ ▼||``
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    radio.sendString("Hello, World!")
+    radio.sendString("")
+    basic.showIcon(IconNames.Square)
+    basic.showIcon(IconNames.SmallSquare)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . # . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showIcon(IconNames.Yes)
 })
 ```
 
@@ -71,7 +89,7 @@ Let's flash your program over to the micro:bit:
   - this is a good thing, it means the program is being flashed over to the micro:bit
 - once it is all done, you should see your program running on the micro:bit
 
-![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
+![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/flashing.png)
 
 ## 07 @unplugged
 
@@ -90,11 +108,14 @@ This code will receive a message to another micro:bit:
 - select ``||basic: Basic||`` drag out a ``||basic. clear screen ||`` block and add it to the ``||radio: on radio received (receivedString) ||`` block
 - select ``||basic: Basic||``drag out a ``||basic: show string ("Hello!") ||`` block and add it to the bottom in the ``||radio: on radio received (receivedString) ||`` block
 - on the ``||radio: on radio received (receivedString) ||`` block, select the ``||variables. (receivedString) ||`` block drag it out and place it where ("Hello!") is
+- select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
+  - change the icon to a ``||basic:show icon ✓ ▼||``
 
 ```blocks
 radio.onReceivedNumber(function (receivedNumber) {
     basic.clearScreen()
     basic.showString("" + (receivedNumber))
+    basic.showIcon(IconNames.Yes)
 })
 ```
 
@@ -108,7 +129,7 @@ Let's flash your program over to the micro:bit:
   - this is a good thing, it means the program is being flashed over to the micro:bit
 - once it is all done, you should see your program running on the micro:bit
 
-![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
+![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/flashing.png)
 
 ## 10 @showhint
 
