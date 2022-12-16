@@ -1,3 +1,8 @@
+---
+layout: default
+title: README.md
+---
+
 # micro:bit Christmas decoration
 
 ## Setup
