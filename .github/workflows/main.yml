@@ -25,7 +25,6 @@ jobs:
           VALIDATE_JAVASCRIPT_STANDARD: false
           VALIDATE_TYPESCRIPT_STANDARD: false
           VALIDATE_PYTHON_FLAKE8: false
-          # VALIDATE_MARKDOWN: false
           VALIDATE_GITLEAKS: false # for secrets detection
           VALIDATE_JSCPD: false # for copy and paste detection
           DEFAULT_BRANCH: main

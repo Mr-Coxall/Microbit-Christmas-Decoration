@@ -1,6 +1,6 @@
 # Lesson #03
 
-## Last Time @unplugged
+## 01 @unplugged
 
 Last time we went over:
 - how to attach a sequence of blocks together to show a pattern
@@ -17,7 +17,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Let's connect and attach up the micro:bit @showhint
+## 02 @showhint
 
 Let's get the micro:bit connected to the computer again:
 - plug the micro:bit into the micro USB cable
@@ -29,7 +29,7 @@ Let's get the micro:bit connected to the computer again:
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
-## Now let's write another program
+## 03 @showhint
 
 Let's try some new blocks:
 - remove the ``||basic:on start||`` block & the ``||basic.forever||`` block by dragging them over to tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
@@ -60,13 +60,13 @@ input.onGesture(Gesture.TiltRight, function () {
 })
 ```
 
-## Let's make another pattern, just like in math class
+## 04 @showhint
 
 The goal is to make a pattern on the micro:bit and then show the pattern to your partner. Their job is to tell you the pattern. To help them learn the pattern you will show it 4 times!
 
 - to begin with remove all the blocks by dragging them over to tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
 
-## Let's make another pattern, just like in math class! @showhint
+## 05 @showhint
 
 - select ``||input. Input`` and drag out a ``||input.on button A ▼ pressed||`` block
 - select ``|| loops. Loops`` and drag out a ``|| loops.repeat (4)times ||`` block and place it inside the ``||input.on button A ▼ pressed||`` block
@@ -79,7 +79,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 ```
-## Now make another pattern, just like in math class
+## 06 @showhint
 
 - select ``||basic: Basic`` add in a ``||basic:show icon ♥ ▼||`` block and place it inside the ``||loops.repeat||`` block
 - now change the icon to something you would like!
@@ -107,12 +107,16 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Now make another pattern, just like in math class
+## 07 @unplugged
 
-- hit the "Download" button at the bottom of the screen to flash your program to the micro:bit
-- show the micro:bit to your partner and press the "A" button on your micro:bit
-  - can they tell you what the pattern is?
+Let's flash your program over to the micro:bit:
+- again press the "Download" button at the bottom of the screen
+- watch the lights flash on the back of the micro:bit
+  - this is a good thing, it means the program is being flashed over to the micro:bit
+- once it is all done, you should see your program running on the micro:bit
 
-## All done
+![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/flashing.png)
+
+## 08
 
 **All Done.**
