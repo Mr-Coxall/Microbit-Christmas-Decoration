@@ -103,7 +103,7 @@ This code will setup the group to receive a message from another micro:bit:
 - remove the ``||basic.forever||`` block by dragging it over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
 - select ``||radio: Radio||`` drag out a ``||radio: radio set group (1) ||`` block and add it to the bottom in the ``||basic:on start||`` block
 - change the "(1)" to the number your group is using
-  - **REMEMBER:it MUST be the same number as the person in your group**
+  - **REMEMBER:it MUST be the same number as the other person in your group**
 - select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
   - change the icon to a ``||basic:show icon ✓ ▼||``
 
