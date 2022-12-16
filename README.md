@@ -23,7 +23,7 @@ The micro:bit Christmas Decoration comes with the following parts:
 
 ## Assemble the micro:bit Christmas Decoration
 
-1. place micro:bit inside the snowflake front, hole is the top to hang on tree
+1. place micro:bit inside the snowflake front, the hole is the top to hang on tree
 ![step 1](./images/step1.jpg)
 2. press on the snowflake back, the cutout goes to the top
 ![step 2](./images/step2.jpg)
@@ -32,15 +32,17 @@ The micro:bit Christmas Decoration comes with the following parts:
 4. connect the battery to the micro:bit, it will only go in 1 way
 ![step 4](./images/step4.jpg)
 5. press "A" & "B" and watch the program run
+![step 5](./images/step5.jpg)
 6. turning off
     1. if turning off for a short time, press and hold the "reset" button on the back for 5 seconds
+        1. press the reset button again to turn back on
     2. if storing for a long time, disconnect the battery cable from the micro:bit
 
 ## Reuse the micro:bit Christmas Decoration
 
-The micro:bit Christmas Decoration is not to be used **JUST** as a decoration. The micro:bit is intended to be removed and used to continue to learn more about coding.
+The micro:bit Christmas Decoration is not to be used **JUST** as a decoration. The micro:bit is intended to be removed and used to continue to learn more about coding. Many more lessons can be found here: [https://microbit.org/teach/lessons/](https://microbit.org/teach/lessons/)
 
-## Lessons we worked though in class
+## Lessons we worked through in class
 
 We worked through [this Hapara Workspace](https://bit.ly/3ELBImL) to learn how to use the micro:bit.
 
