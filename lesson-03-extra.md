@@ -1,4 +1,4 @@
-# micro:bit - Make 2 micro:bits talk to each other!
+# micro:bit - Make 2 micro:bits talk to each other
 
 ## 01 @unplugged
 
@@ -12,7 +12,7 @@ In this program you will get 2 micro:bit to communicate using Bluetooth.
 
 ## 02 @showhint
 
-** ONLY RE-CONNECT IF YOU ARE NOT ALREADY CONNECTED!**
+**ONLY RE-CONNECT IF YOU ARE NOT ALREADY CONNECTED!**
 
 Let's get the micro:bit connected to the computer again:
 - plug the micro:bit into the micro USB cable
@@ -68,7 +68,7 @@ input.onButtonPressed(Button.A, function () {
 Let's flash your program over to the micro:bit:
 - again press the "Download" button at the bottom of the screen
 - watch the lights flash on the back of the micro:bit
-    - this is a good thing, it means the program is being flashed over to the micro:bit
+  - this is a good thing, it means the program is being flashed over to the micro:bit
 - once it is all done, you should see your program running on the micro:bit
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
@@ -105,7 +105,7 @@ radio.onReceivedNumber(function (receivedNumber) {
 Let's flash your program over to the micro:bit:
 - again press the "Download" button at the bottom of the screen
 - watch the lights flash on the back of the micro:bit
-    - this is a good thing, it means the program is being flashed over to the micro:bit
+  - this is a good thing, it means the program is being flashed over to the micro:bit
 - once it is all done, you should see your program running on the micro:bit
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)

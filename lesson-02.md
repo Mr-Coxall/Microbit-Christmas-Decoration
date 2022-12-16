@@ -61,7 +61,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Too fast! @showhint
 
-You will notice the images change very fast. You can slow that down by adding in a delay. 
+You will notice the images change very fast. You can slow that down by adding in a delay.
 - select ``||basic: Basic||``, then the ``||basic.pause ms(100)||`` block
 - place it after your ``||basic:show icon ♥ ▼||`` block
 - now change the "100" to "1000", meaning 1 second
@@ -97,7 +97,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Run it again!
+## Run it again
 
 Let's run your program again:
 - press the "reset" button on the back of the micro:bit

@@ -60,7 +60,7 @@ input.onGesture(Gesture.TiltRight, function () {
 })
 ```
 
-## Let's make another pattern, just like in math class!
+## Let's make another pattern, just like in math class
 
 The goal is to make a pattern on the micro:bit and then show the pattern to your partner. Their job is to tell you the pattern. To help them learn the pattern you will show it 4 times!
 
@@ -69,7 +69,7 @@ The goal is to make a pattern on the micro:bit and then show the pattern to your
 ## Let's make another pattern, just like in math class! @showhint
 
 - select ``||input. Input`` and drag out a ``||input.on button A ▼ pressed||`` block
-- select ``|| loops. Loops`` and drag out a ``|| loops.repeat (4)times ||`` block and place it inside the ``||input.on button A ▼ pressed||`` block 
+- select ``|| loops. Loops`` and drag out a ``|| loops.repeat (4)times ||`` block and place it inside the ``||input.on button A ▼ pressed||`` block
 
 ```blocks
 // @highlight
@@ -79,7 +79,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 ```
-## Let's make another pattern, just like in math class!
+## Let's make another pattern, just like in math class
 
 - select ``||basic: Basic`` add in a ``||basic:show icon ♥ ▼||`` block and place it inside the ``||loops.repeat||`` block
 - now change the icon to something you would like!
@@ -107,7 +107,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Let's make another pattern, just like in math class!
+## Let's make another pattern, just like in math class
 
 - hit the "Download" button at the bottom of the screen to flash your program to the micro:bit
 - show the micro:bit to your partner and press the "A" button on your micro:bit
