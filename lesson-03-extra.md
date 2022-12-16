@@ -102,7 +102,7 @@ radio.onReceivedNumber(function (receivedNumber) {
 
 **The receiver code is now done.**
 
-Let's flash your add program over to the micro:bit:
+Let's flash your program over to the micro:bit:
 - again press the "Download" button at the bottom of the screen
 - watch the lights flash on the back of the micro:bit
     - this is a good thing, it means the program is being flashed over to the micro:bit
