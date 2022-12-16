@@ -43,7 +43,7 @@ This code will send a message to another micro:bit:
 
 ```blocks
 basic.clearScreen()
-basic.showIcon(IconNames.Happy)
+basic.showIcon(IconNames.Yes)
 radio.setGroup(1)
 ```
 
@@ -55,17 +55,17 @@ Now for the message:
 - place your **short** message inside the ("")
   - for example: ``||radio: radio send string ("Hello, World!") ||``
 - select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
-  - change the icon to a large box ``||basic.showIcon(IconNames.Square)||``
+  - change the icon to a large box ``||show icon ▢ ▼||``
 - select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
-  - change the icon to a small box ``||basic.showIcon(IconNames.SmallSquare)||``
+  - change the icon to a small box ``||show icon □ ▼||``
 - select ``||basic: Basic||`` drag out a ``||basic:show leds||`` block and add it to the bottom in the ``||basic:on start||`` block
   - select just the middle led
-- select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
+- select ``||basic: Basic||`` drag out a ``||basic: show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
   - change the icon to a ``||basic:show icon ✓ ▼||``
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    radio.sendString("")
+    radio.sendString("Hello, World!")
     basic.showIcon(IconNames.Square)
     basic.showIcon(IconNames.SmallSquare)
     basic.showLeds(`
@@ -99,11 +99,22 @@ Let's flash your program over to the micro:bit:
 
 ## 08 @showhint
 
-This code will receive a message to another micro:bit:
+This code will setup the group to receive a message from another micro:bit:
 - remove the ``||basic.forever||`` block by dragging it over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
 - select ``||radio: Radio||`` drag out a ``||radio: radio set group (1) ||`` block and add it to the bottom in the ``||basic:on start||`` block
 - change the "(1)" to the number your group is using
   - **REMEMBER:it can not be the same number as any other group**
+- select ``||basic: Basic||`` drag out a ``||basic:show icon ♥ ▼||`` block and add it to the bottom in the ``||basic:on start||`` block
+  - change the icon to a ``||basic:show icon ✓ ▼||``
+
+```blocks
+radio.setGroup(1)
+basic.showIcon(IconNames.Yes)
+```
+
+## 09 @showhint
+
+This code will receive the message from another micro:bit:
 - select ``||radio: Radio||`` drag out a ``||radio: on radio received (receivedString) ||`` block
 - select ``||basic: Basic||`` drag out a ``||basic. clear screen ||`` block and add it to the ``||radio: on radio received (receivedString) ||`` block
 - select ``||basic: Basic||``drag out a ``||basic: show string ("Hello!") ||`` block and add it to the bottom in the ``||radio: on radio received (receivedString) ||`` block
@@ -119,7 +130,7 @@ radio.onReceivedNumber(function (receivedNumber) {
 })
 ```
 
-## 09 @unplugged
+## 10 @unplugged
 
 **The receiver code is now done.**
 
@@ -131,7 +142,7 @@ Let's flash your program over to the micro:bit:
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/flashing.png)
 
-## 10 @showhint
+## 11 @showhint
 
 **Play the Game**
 
@@ -142,6 +153,6 @@ Let's flash your program over to the micro:bit:
   - each person can have a different message of the "A" & "B" buttons
     - as well as for shake and the micro:bit touch icon!
 
-## 11
+## 12
 
 **Done.**
