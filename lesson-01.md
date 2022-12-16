@@ -72,7 +72,7 @@ Let's check our program:
 Let's flash our program over to the micro:bit:
 - hit the "Download" button at the bottom of the screen
 - watch the lights flash on the back of the micro:bit
-    - this is a good thing, it means the program is being flashed over to the micro:bit
+  - this is a good thing, it means the program is being flashed over to the micro:bit
 - once it is all done, you should see your program running on the micro:bit
 
 ## Run it again

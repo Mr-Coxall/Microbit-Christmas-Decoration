@@ -79,7 +79,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 ```
-## Let's make another pattern, just like in math class
+## Now make another pattern, just like in math class
 
 - select ``||basic: Basic`` add in a ``||basic:show icon ♥ ▼||`` block and place it inside the ``||loops.repeat||`` block
 - now change the icon to something you would like!
@@ -107,7 +107,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Let's make another pattern, just like in math class
+## Now make another pattern, just like in math class
 
 - hit the "Download" button at the bottom of the screen to flash your program to the micro:bit
 - show the micro:bit to your partner and press the "A" button on your micro:bit

@@ -1,4 +1,4 @@
-# micro:bit - Make a Dice!
+# micro:bit - Make a Dice
 
 ## Introduction @unplugged
 
@@ -41,7 +41,7 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
-## Finally! let's flash our first program!
+## Finally! let's flash our first program
 
 Let's flash your dice program over to the micro:bit:
 - again press the "Download" button at the bottom of the screen

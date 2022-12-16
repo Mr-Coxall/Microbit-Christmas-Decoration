@@ -17,7 +17,7 @@ qwerty
 - [Lesson #2 - Extra](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-02-extra&lockedEditor=1)
 - [Lesson #3 - Extra](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-03-extra&lockedEditor=1)
 
-### Done.
+### Done
 
 #### Metadata (used for search, rendering)
 

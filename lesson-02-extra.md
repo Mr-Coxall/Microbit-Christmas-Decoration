@@ -147,7 +147,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 ```
 
-## Now let's show the answer @showhint
+## Now we can show the answer @showhint
 
 Let's print out the answer:
 - in the 1st section that currently has "Hello" replace it with
