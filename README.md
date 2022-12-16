@@ -1,4 +1,4 @@
-# micro:bit Christmas decoration
+# micro:bit Christmas Decoration
 
 ## Setup
 
