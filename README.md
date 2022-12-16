@@ -1,6 +1,6 @@
 # micro:bit Christmas decoration
 
-## micro:bit Chrstmas Tree Decoration
+## Setup
 
 qwerty
 
