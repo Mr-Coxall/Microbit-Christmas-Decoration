@@ -61,7 +61,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## 05 @unplugged
+## 06 @unplugged
 
 **The sender code is now done.**
 
@@ -73,13 +73,13 @@ Let's flash your program over to the micro:bit:
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
-## 06 @unplugged
+## 07 @unplugged
 
 **This code is for the person receiving the message**
 
 **REMEMBER: you need to have your group number**
 
-## 07 @showhint
+## 08 @showhint
 
 This code will receive a message to another micro:bit:
 - remove the ``||basic.forever||`` block by dragging it over to the tool bar (to the left where the blocks are). When you drag them over to the toolbar it will turn red and a grabage can shows up. That's okay! You are in the right spot!
@@ -92,13 +92,13 @@ This code will receive a message to another micro:bit:
 - on the ``||radio: on radio received (receivedString) ||`` block, select the ``||variables. (receivedString) ||`` block drag it out and place it where ("Hello!") is
 
 ```blocks
-radio.onReceivedString(function (receivedString) {
+radio.onReceivedNumber(function (receivedNumber) {
     basic.clearScreen()
-    basic.showString("Hello!")
+    basic.showString("" + (receivedNumber))
 })
 ```
 
-## 08 @unplugged
+## 09 @unplugged
 
 **The receiver code is now done.**
 
@@ -110,7 +110,7 @@ Let's flash your add program over to the micro:bit:
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
-## 09 @showhint
+## 10 @showhint
 
 **Play the Game**
 
@@ -121,6 +121,6 @@ Let's flash your add program over to the micro:bit:
   - each person can have a different message of the "A" & "B" buttons
     - as well as for shake and the micro:bit touch icon!
 
-## Done
+## 11
 
 **Done.**
