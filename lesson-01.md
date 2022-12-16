@@ -10,7 +10,7 @@ Learn how to get the micro:bit working, program its features and create your fir
 
 ## Let's Attach the micro:bit @unplugged
 
-** Let's Attach the micro:bit **
+**Let's Attach the micro:bit**
 
 ![micro:bit attached to micro USB cable image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/connect-micro-bit.png)
 
@@ -22,7 +22,7 @@ Let's get the micro:bit attached to the computer:
 
 ## Now let's connect the micro:bit @unplugged
 
-** Now let's connect the micro:bit **
+**Now let's connect the micro:bit**
 
 ![micro:bit connecting image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/pair.png)
 
@@ -36,7 +36,7 @@ Let's get the micro:bit connected to the computer:
 
 ## Now let's write your first program! @unplugged
 
-** Now let's write your first program! **
+**Now let's write your first program!**
 
 ![micro:bit programming image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/program.jpg)
 
@@ -47,14 +47,14 @@ Let's program the micro:bit:
 - then click and drag out the ``||basic:show string("Hello!")||`` block.
 - place it inside the ``||basic:on start||`` block
 - now add you name after "Hello":
-    - Example: ``||basic:show string("Hello, Jane!")||``
+  - Example: ``||basic:show string("Hello, Jane!")||``
 
 ```blocks
 // @highlight
 basic.showString("Hello, Jane!")
 ```
 
-## Now let's check our first program!
+## Now let's check our first program
 
 Let's check our program:
 - on the left hand side, the micro:bit simulator should have updated
@@ -63,11 +63,11 @@ Let's check our program:
 
 ## Finally! let's flash our first program! @unplugged
 
-** Finally! let's flash our first program! **
+**Finally! let's flash our first program!**
 
 ![micro:bit flashing program image](https://raw.githubusercontent.com/Mr-Coxall/Microbit-Christmas-Decoration/master/docs/static/transfer.jpg)
 
-## Finally! let's flash our first program!
+## Finally! let's flash our first program
 
 Let's flash our program over to the micro:bit:
 - hit the "Download" button at the bottom of the screen
@@ -75,7 +75,7 @@ Let's flash our program over to the micro:bit:
     - this is a good thing, it means the program is being flashed over to the micro:bit
 - once it is all done, you should see your program running on the micro:bit
 
-## Run it again!
+## Run it again
 
 Let's run your program again:
 - hit the "reset" button on the back of the micro:bit

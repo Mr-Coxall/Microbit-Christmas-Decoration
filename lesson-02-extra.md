@@ -1,4 +1,4 @@
-# micro:bit - Make an addition game!
+# micro:bit - Make an addition game
 
 ## 01 @unplugged
 
@@ -10,7 +10,7 @@ In this program you will first shake the micro:bit to set the question. Then you
 
 ## 02 @showhint
 
-** ONLY RE-CONNECT IF YOU ARE NOT ALREADY CONNECTED!**
+**ONLY RE-CONNECT IF YOU ARE NOT ALREADY CONNECTED!**
 
 Let's get the micro:bit connected to the computer again:
 - plug the micro:bit into the micro USB cable
@@ -46,7 +46,7 @@ Now that we have our first variable, let's create a 2nd one:
 - select ``||variables. Variables||`` and then click "Make a Variable..." again
 - we will call our 2nd variable, ``||variables. second_number||``, since it will hold the 2nd number we are adding
 - type in "second_number" and then press "Enter"
-- you will notice the new blocks have changed. The ▼ will let you select any variable you have create. Drag out the ``||variables. set [second_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block under the ``||variables. set [first_number ▼] to (0)||`` block 
+- you will notice the new blocks have changed. The ▼ will let you select any variable you have create. Drag out the ``||variables. set [second_number ▼] to (0)||`` block and place it inside the ``||input.on shake ▼ ||`` block under the ``||variables. set [first_number ▼] to (0)||`` block
 
 ```blocks
 let first_number = 0
@@ -169,12 +169,12 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 ```
 
-## Finally! let's flash our adding program!
+## Finally! let's flash our adding program
 
 Let's flash your add program over to the micro:bit:
 - again press the "Download" button at the bottom of the screen
 - watch the lights flash on the back of the micro:bit
-    - this is a good thing, it means the program is being flashed over to the micro:bit
+  - this is a good thing, it means the program is being flashed over to the micro:bit
 - once it is all done, you should see your program running on the micro:bit
 
 ## Play the Adding Game
