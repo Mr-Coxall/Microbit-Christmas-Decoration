@@ -2,14 +2,12 @@
 
 ![micro:bit Christmas Decoration](./images/micro_bit_decoration.jpg)
 
-## About the micro:bit 
-
-### micro:bit Introduction Video
+## About the micro:bit
 
 [![Introduction to the BBC micro:bit](http://img.youtube.com/vi/u2u7UJSRuko/0.jpg)](http://www.youtube.com/watch?v=u2u7UJSRuko "Introduction to the BBC micro:bit")
 
 - the full block language MakeCode Editor can be found here: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- you have been provided with thenew VER: 2.0 of the BBC micro:bit that has a microphone, speaker and touch capacitive sensor
+- you have been provided with the new VER: 2.0 of the BBC micro:bit that has a microphone, speaker and touch capacitive sensor
 
 ## About the micro:bit Christmas Decoration
 
@@ -22,6 +20,25 @@ The micro:bit Christmas Decoration comes with the following parts:
 6. container
 
 ![micro:bit Christmas Decoration Kit](./images/kit.jpg)
+
+## Assemble the micro:bit Christmas Decoration
+
+1. place micro:bit inside the snowflake front, hole is the top to hang on tree
+![step 1](./images/step1.jpg)
+2. press on the snowflake back, the cutout goes to the top
+![step 2](./images/step2.jpg)
+3. attach the battery using the velcro
+![step 3](./images/step3.jpg)
+4. connect the battery to the micro:bit, it will only go in 1 way
+![step 4](./images/step4.jpg)
+5. press "A" & "B" and watch the program run
+6. turning off
+    1. if turning off for a short time, press and hold the "reset" button on the back for 5 seconds
+    2. if storing for a long time, disconnect the battery cable from the micro:bit
+
+## Reuse the micro:bit Christmas Decoration
+
+The micro:bit Christmas Decoration is not to be used **JUST** as a decoration. The micro:bit is intended to be removed and used to continue to learn more about coding.
 
 ## Lessons we worked though in class
 
