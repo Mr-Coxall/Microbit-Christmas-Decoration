@@ -53,7 +53,7 @@ Now for the message:
 - select ``||input. Input||`` and drag out a ``||input.on button A ▼ pressed||`` block
 - select ``||radio: Radio||`` drag out a ``||radio: radio send string ("") ||`` block and add it to the ``||input.on button A ▼ pressed||`` block
 - place your **short** message inside the ("")
-  - for example: "Hello, World!"
+  - for example: ``||radio: radio send string ("Hello, World!") ||``
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
