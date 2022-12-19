@@ -46,7 +46,7 @@ The micro:bit Christmas Decoration is not to be used **JUST** as a decoration. T
 
 We worked through [this Hapara Workspace](https://bit.ly/3ELBImL) to learn how to use the micro:bit.
 
-Here where the lessons:
+Here are the lessons:
 
 - [Lesson #1](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-01&lockedEditor=1)
   - [Lesson #1 - Extra](https://makecode.microbit.org/#tutorial:github:mr-coxall/microbit-christmas-decoration/lesson-01-extra&lockedEditor=1)
