@@ -123,9 +123,9 @@ This code will receive the message from another micro:bit:
   - change the icon to a ``||basic:show icon ✓ ▼||``
 
 ```blocks
-radio.onReceivedNumber(function (receivedNumber) {
+radio.onReceivedString(function (receivedString) {
     basic.clearScreen()
-    basic.showString("" + (receivedNumber))
+    basic.showString("" + (receivedString))
     basic.showIcon(IconNames.Yes)
 })
 ```

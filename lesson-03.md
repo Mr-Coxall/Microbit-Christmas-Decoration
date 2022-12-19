@@ -69,7 +69,7 @@ The goal is to make a pattern on the micro:bit and then show the pattern to your
 ## 05 @showhint
 
 - select ``||input. Input`` and drag out a ``||input.on button A ▼ pressed||`` block
-- select ``|| loops. Loops`` and drag out a ``|| loops.repeat (4)times ||`` block and place it inside the ``||input.on button A ▼ pressed||`` block
+- select ``|| loops. Loops`` and drag out a ``|| loops.repeat (4) times ||`` block and place it inside the ``||input.on button A ▼ pressed||`` block
 
 ```blocks
 // @highlight
@@ -85,25 +85,19 @@ input.onButtonPressed(Button.A, function () {
 - now change the icon to something you would like!
 - select ``||basic: Basic`` add in a ``||basic.pause ms(100)||`` block and change the "100" to "1000", meaning 1 second
 - now repeat this 2 more times, creating a pattern you would like
-- at the bottom of your loop add in a ``||basic:show leds||`` block to clear the screen at the end
+- at the bottom of your loop add in a ``||basic.clearScreen()||`` block to clear the screen at the end
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 4; index++) {
-        basic.showIcon(IconNames.Square)
-        basic.pause(1000)
-        basic.showIcon(IconNames.LeftTriangle)
-        basic.pause(1000)
-        basic.showIcon(IconNames.Sad)
-        basic.pause(1000)
-    }
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
+  for (let index = 0; index < 4; index++) {
+    basic.showIcon(IconNames.Square)
+    basic.pause(1000)
+    basic.showIcon(IconNames.LeftTriangle)
+    basic.pause(1000)
+    basic.showIcon(IconNames.Sad)
+    basic.pause(1000)
+  }
+  basic.clearScreen()
 })
 ```
 
